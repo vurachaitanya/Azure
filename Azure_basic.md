@@ -1,0 +1,22 @@
+
+# Azure
+### Microsoft Azure Architect Technologies - Exam AZ-300
+- [Acloud guru](https://learn.acloud.guru/course/5f033990-3a2e-4fe1-9d90-ecd1d0891deb/learn/1a273a93-dfb4-4306-bf40-698a6fa62658/99214cf8-4fa2-46a1-9bab-c937caa88c07/watch)
+
+- Azure Cloud -> Subscription -> Resource group, Azure AD Tenant, Azure Tools -> 
+- Azure Subscription is to create an account with Azure and create resources & resource groups inside subscription.
+- Azure subscriptions are used for different subscription for different environment, LOB, Group etc.
+- Resource group - contains group of resources, which give security.
+- Azure AD Tenant - Outside Azure subscription. Manages accesses.
+- Azure AD Tenant to use in any subscription we need to create trust between them. (Azure AD Tenant --> Trust --> Azure Subscription)
+- One Subscription can't have multiple Tenant, but one Tenant can have multiple subscription.
+- Management Tools:- Azure Portal, PowerShell, Azure CLI, Azure SDK. All interacts with Azure resource Manager API.
+
+AWS | Azure
+---|---
+Organization| Geography
+Region |Region
+Availability Zones | Availability Zones
+VPC across AZ| Virtual Networking across AZ
+VPC | VNet
+Subnet | Subnet
