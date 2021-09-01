@@ -20,3 +20,40 @@ Availability Zones | Availability Zones
 VPC across AZ| Virtual Networking across AZ
 VPC | VNet
 Subnet | Subnet
+
+
+
+#### Storage Account:
+- Storage name should be unique just like S3 across the Azure cloud.
+
+- Account should be created for using Storage.
+- Type of Storage
+  - Container
+  - Blob
+  - Files
+  - Queue
+  - Table
+  - Disk
+- Catagiries 
+  - Type
+  - Access Tier
+  - Perfomance Tier
+  - Replication options
+
+#### Network interfaces to be created( VPC)
+- CIDR
+- Subnet
+- 
+
+#### VM
+- Create VM with Name
+- Subscription --> Resource group --> VM 
+- Availability zone, Image, Size of VM
+- SSH port open
+- HDD 
+- Network - subnet, port, Network security group
+- Monitoring 
+- Advanced - Gen, VM Group, host Group, custom data
+
+#### Azure Shell - CLI Bash vs PowerShell
+- `az network vnet list --output table`
