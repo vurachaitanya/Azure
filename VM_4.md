@@ -19,7 +19,8 @@
   - click on Capture
   - Generalize the VM so that user name/Password don't need to be carry across all VM's.
   - Windows tool has sysprep.exe 
-  - Linux `sudo waagent -deprovision=user`, Deallocate the VM (shutdown the VM)
+  - Linux `sudo waagent -deprovision+user -force` [Linux image to generalised](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/capture-image) - removes users which are not generic to make image out of the VM Linux OS.
+  - Deallocate the VM (shutdown the VM)
   - Mark the vm as generalize 
   - Create an image from the VM.
   - Any VM convereted to image, can't be used. 
