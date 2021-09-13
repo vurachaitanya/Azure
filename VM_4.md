@@ -1,0 +1,26 @@
+### VM Images:
+- Azure has created Market place for different images for different providers & Custom images where user defined images present.
+- We can upload our own images to Custom images or customize images which are already there in market place.
+- Image are used to build the VM's OS disk.
+- We can't install OS from the console. Hence pre deployed & pre configured Images are preset to directly consume them.
+- We can convert VM OS which is configured as per our requirement to an image, so as to make multiple VM's.
+- **Market place images** will have following parameters:
+  - Publisher : Organization
+  - Offer : OS/type ex: ubuntu/Server
+  - SKU : an instance of the offer ex: 16.0.4-LTS, 2016-data center
+  - version: version of SKU, Ex: 16.0.4.1, Latest - can be used to get the latest version.
+- `Get-AzureRMVMImagePublisher -location australisoutheast| select Publishername` - gets list of publishers name
+- `Get-AzureRMVMImageOffer -Location australiasoutheast -Publisher canonical| Select Offer` - gives list of offering image type ie server/Desktop etc.
+- `Get-AzureRMVMImageSku -Location australiasoutheast -Publisher canonical -Offer UbuntuServer |Select Skus` - Select version of Ubuntu, Ex 14.x,15.x,16.x,16.1.LTS
+-  `Get-AzureRMVMImage -Location australiasoutheast -Publisher canonical -Offer UbuntuServer -Sku 16.04-lts |Select Version` - List all version in 16.x image Ex: 16.04.201703270, 16..04.201703280 etc.
+- User this in power shell to set the Latest image: `Get-AzureRmVMSourceImage -Publishername Canonical -Offer UbuntuServer -Skue 16.04-LTS -Version latest`
+- **VM to Image Conversion :** 
+  - Go to VM
+  - click on Capture
+  - Generalize the VM so that user name/Password don't need to be carry across all VM's.
+  - Windows tool has sysprep.exe 
+  - Linux `sudo waagent -deprovision=user`, Deallocate the VM (shutdown the VM)
+  - Mark the vm as generalize 
+  - Create an image from the VM.
+  - Any VM convereted to image, can't be used. 
+  
