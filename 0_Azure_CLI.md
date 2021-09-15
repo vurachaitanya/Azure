@@ -14,6 +14,8 @@
 
 - Azure Cli install on windows/Linux
 - Azure cloud Shell
+  - For using Cloudshell you need to create Storage account and subscription
+  - `az storage account list --query [].name` - list the storage account name using JQ Query.
 - `/etc/apt/sources.list.d/azure-cli.list` - Source repo should be updated with Azure example : `deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ bionic main`
 - `sudo apt-get install azure-cli` Install Azure cli on ubuntu [Doc](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
 - `az login` - Login to Azure cloud
