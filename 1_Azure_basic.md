@@ -59,7 +59,7 @@ Subnet | Subnet
 - `az network vnet list --output table`
 
 
-## Azure Compute services:- 
+## Azure Compute services :- 
 - Azure Virtual Machines
 - Azure Virtual Machine Scale Sets (Scaling for Windows or Linux VMs hosted in Azure)
 - Azure Kubernetes Service
@@ -67,3 +67,19 @@ Subnet | Subnet
 - Azure Batch
 - Azure Container Instances
 - Azure Functions
+
+
+## Networking Service name :-
+- Azure Virtual Network
+- Azure Load Balancer
+- Azure Application Gateway
+- Azure VPN Gateway
+- Azure DNS
+- Azure Content Delivery Network (Delivers high-bandwidth content to customers globally)
+- Azure DDoS Protection
+- Azure Traffic Manager (Distributes network traffic across Azure regions worldwide.)
+- Azure ExpressRoute(
+- Connects to Azure over high-bandwidth dedicated secure connections)
+- Azure Network Watcher(Monitors and diagnoses network issues by using scenario-based analysis)
+- Azure Firewall
+- Azure Virtual WAN (Creates a unified wide area network (WAN) that connects local and remote sites)
