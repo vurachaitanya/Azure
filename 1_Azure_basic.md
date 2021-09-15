@@ -57,3 +57,13 @@ Subnet | Subnet
 
 #### Azure Shell - CLI Bash vs PowerShell
 - `az network vnet list --output table`
+
+
+## Azure Compute services:- 
+- Azure Virtual Machines
+- Azure Virtual Machine Scale Sets (Scaling for Windows or Linux VMs hosted in Azure)
+- Azure Kubernetes Service
+- Azure Service Fabric (Distributed systems platform that runs in Azure or on-premises)
+- Azure Batch
+- Azure Container Instances
+- Azure Functions
