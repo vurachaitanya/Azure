@@ -25,3 +25,18 @@
   - Create an image from the VM.
   - Any VM convereted to image, can't be used. 
   
+### VM Storage:
+- 3 Type of disk :
+  - OS Disk - OS files
+  - Data disk - created as blank disk
+  - Temporary disk - Includes with all VM - Data can be lost after reboot.
+- VHD - Virtual Hard disk, are source to create disk or images.
+- VM disk can be managed or unmanaged 
+  - Unmanaged :- manual config storage account. Belongs to VM.
+  - Managed :- Need Storage account but Azure take care of reliability, performance. These are independent resources
+- VM disks performance tiers :
+  - Standard HDD : Cost effective, Low IOPS
+  - Standard SDD : Good consistency and reliability.
+  - Premium SDD : High performance, Low latency, S name while accessing to VM.
+- Azure storage service encryption at infra level, disk stealing which will not give access to the data.
+- 
