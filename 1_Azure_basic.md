@@ -107,4 +107,6 @@ Subnet | Subnet
 ### Key points:
 - Azure Management group, subscriptions, resource group, resources:
 - ![Azure Arch](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/scope-levels.png)
-- [Resources which support Regions(Resilient to the zone-wide outages) vs Non-Regional Services](https://docs.microsoft.com/en-us/azure/availability-zones/az-region#zone-resilient-services)
+- [Resources which support Regions(Resilient to the zone-wide outages) VS Non-Regional Services](https://docs.microsoft.com/en-us/azure/availability-zones/az-region#zone-resilient-services)
+- **Zones VS Regions VS Region pair**
+- ![Region Pairs](https://daryusman.files.wordpress.com/2019/01/5-region-pairs.png)
