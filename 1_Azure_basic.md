@@ -69,7 +69,7 @@ Subnet | Subnet
 - Azure Functions
 
 
-## Networking Service name :-
+## Networking Service :-
 - Azure Virtual Network
 - Azure Load Balancer
 - Azure Application Gateway
@@ -83,3 +83,10 @@ Subnet | Subnet
 - Azure Network Watcher(Monitors and diagnoses network issues by using scenario-based analysis)
 - Azure Firewall
 - Azure Virtual WAN (Creates a unified wide area network (WAN) that connects local and remote sites)
+
+## Storage Services :-
+
+- Azure Blob storage
+- Azure File storage
+- Azure Queue storage
+- Azure Table storage
