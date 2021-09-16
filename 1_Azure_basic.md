@@ -104,5 +104,7 @@ Subnet | Subnet
 - Azure Database for MariaDB
 
 
-### Azure Management group, subscriptions, resource group, resources:
+### Key points:
+- Azure Management group, subscriptions, resource group, resources:
 - ![Azure Arch](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/scope-levels.png)
+- [Resources which support Regions(Resilient to the zone-wide outages) vs Non-Regional Services](https://docs.microsoft.com/en-us/azure/availability-zones/az-region#zone-resilient-services)
