@@ -19,6 +19,8 @@
 - `/etc/apt/sources.list.d/azure-cli.list` - Source repo should be updated with Azure example : `deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ bionic main`
 - `sudo apt-get install azure-cli` Install Azure cli on ubuntu [Doc](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt)
 - `az login` - Login to Azure cloud
+- `az find secret` - search for command names containing secret
+- `az login --use-device-code` or `az login -u <username> -p <password>` - If no web browser is available or the web browser fails to open
 - `az --version` - Check to see always to be on latest version.
 - `az vm --help|more` - Help command
 - `az  vm create --help` - Help command with examples
