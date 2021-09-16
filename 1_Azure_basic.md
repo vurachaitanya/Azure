@@ -58,7 +58,7 @@ Subnet | Subnet
 #### Azure Shell - CLI Bash vs PowerShell
 - `az network vnet list --output table`
 
-
+- [Ref](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-fundamentals/tour-of-azure-services)
 ## Azure Compute services :- 
 - Azure Virtual Machines
 - Azure Virtual Machine Scale Sets (Scaling for Windows or Linux VMs hosted in Azure)
