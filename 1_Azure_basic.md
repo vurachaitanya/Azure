@@ -102,3 +102,7 @@ Subnet | Subnet
 - Azure Database Migration Service - (Service that migrates databases to the cloud with no application code changes)
 - Azure Cache for Redis -(Caches frequently used and static data to reduce data and application latency)
 - Azure Database for MariaDB
+
+
+### Azure Management group, subscriptions, resource group, resources:
+- ![Azure Arch](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/media/organize-resources/scope-levels.png)
