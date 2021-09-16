@@ -90,3 +90,15 @@ Subnet | Subnet
 - Azure File storage
 - Azure Queue storage
 - Azure Table storage
+
+## Database Services :- 
+
+- Azure Cosmos DB - (Globally distributed database that supports NoSQL options)
+- Azure SQL Database - (Fully managed and scalable with HA)
+- Azure Database for MySQL
+- Azure Database for PostgreSQL
+- SQL Server on Azure Virtual Machines - (Service that hosts enterprise SQL Server apps in the cloud)
+- Azure Synapse Analytics - (Fully managed data warehouse with integral security at every level of scale at no extra cost)
+- Azure Database Migration Service - (Service that migrates databases to the cloud with no application code changes)
+- Azure Cache for Redis -(Caches frequently used and static data to reduce data and application latency)
+- Azure Database for MariaDB
