@@ -19,3 +19,31 @@
 - Supports Zone redundant storage
 
 ![Storage Account types](https://www.edureka.co/community/?qa=blob&qa_blobid=12800761455423777756)
+
+
+- PowerSheel command to create storage account:
+```
+New-AzureRmStorageAccount -ResourceGroupName chaitu_rg
+-AccessTier Hot `
+-SkuName Standard_GRS `
+-Kind BlobStorage `
+-AccountName Storageaccount1 `
+-Location US East `
+```
+#### Storage Account - Performance Tiers
+##### Two performance Tiers
+- Standard : Magnetic drives and Low cost. Supports by all Storage account, storage services. 
+- Premium : SSD, High performance and low latency access. 
+- Premium performance Only used with VM disk. ex High I/O Ops like DB servers etc.
+- give 99.% SLA, uptime
+
+Standard | Premium
+---|---
+Magnetic drives & Low cost|SSD, High Performance
+Low latency|High latency
+Geo redundant storage|Locally redundant
+All storage Tiers| General purpose type SA
+Major resource |VM Only
+NA | 99.9% SLA
+
+
