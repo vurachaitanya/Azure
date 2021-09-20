@@ -98,3 +98,22 @@ Archive Storage| Rarely access data more than 180 days
 - Different permission (read, list, delete, create etc)
 - Account & Service SAS URI are similar but Account SAS URI will have more details.
 - Once the SAS access is created we may not revert the access or change the access as those are stored in client. 
+
+
+### Storage account Networking :
+#### 2 types of Storage account network access
+- Virtual network service endpoint
+- Storage firewall 
+
+- Vnet is responsible for private network between your vnet and SA. 
+- Storage firewall provides network level access control and can be used independently or in conjunction with Service endpoints. Ability to access or deny based on IP address. 
+- Command to create storage endpotint 
+`az network vnet subnet update -g chaitu_rg --vnet-name vnet1 -n subnet1 --service-edpoints "Microsoft.Storage"`
+- There would be change in the configuration of nic -->effective routes --> 2 Virtual network is added newly.
+
+#### Features :
+- Storage firewall rules apply to all network protocols as only IP is specified like SMB,REST etc
+- SA are accessed over the public Internet.
+- Enabling firewall will create default deny rule to block all access to SA.
+- Only Public IP can be added to Network Rules, Vnet can be used for granting Private access.
+- Exceptions can be enabled to grant Microsoft service and common types of access(logging & Monitoring).
