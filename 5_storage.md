@@ -46,4 +46,29 @@ All storage Tiers| General purpose type SA
 Major resource |VM Only
 NA | 99.9% SLA
 
+### Storage Account - Access Tier
+###### 3 Access Tier, Only for Blob storage
 
+Storage tier type|Description
+---|---
+Hot storage| Frequently access data
+Cool storage| Infrequently access data at least 30 days old
+Archive Storage| Rarely access data more than 180 days
+
+- Based on frequently read and write
+- We can change the tier based on requirement but price will varies. 
+- Configured at SA but set at object level too.
+- Archive level is set at Oject level.
+- General purpose V1 will not support.
+
+### Storage Account - Replication options
+##### 4 types of replication options for data replication.
+
+- LRS - Local redundant storage - Replicates to another storage scale unit 
+- ZRS - Zone redundant storage - Across the zones, with in storage cluster with single region. All regions are not supported.
+- GRS - Geo redundant storage - Replicates across regions
+- RA-GRS - Read access to across GRS - Read from secondary copy
+
+##### Synchronization :
+- LRS & ZRS replication occurs syn.
+- GRS and RA-GRS replicates Asyn.
