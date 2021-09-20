@@ -41,3 +41,10 @@
 - **Azure storage service encryption** at infra level, disk stealing which will not give access to the data.
 - **Azure Data Encryption** - protects the data one login in to you account, VM is on. Can't transfer or export the data. 
 - [List Azure Resources created in JSON format. API Calls can be listed](https://resources.azure.com/)
+
+### Virtual Machine Extensions :
+- Different type of extensions can be installed to extract required data from VM, example custom script, symantec endpoint, datadog etc.
+- VM Extensions are lightweight application or services which assist post deployment configuration or various automation tasks on VMs.
+- Custom script to run by setting language setting, timezone etc.
+- **Azure Diagnostics extension** to support additional monitoring. 
+
