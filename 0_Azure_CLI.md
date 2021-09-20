@@ -13,6 +13,7 @@
 ### Azure CLI:
 
 - Azure Cli install on windows/Linux
+- [List Azure Resources created in JSON format. API Calls can be listed](https://resources.azure.com/)
 - Azure cloud Shell
   - For using Cloudshell you need to create Storage account and subscription
   - `az storage account list --query [].name` - list the storage account name using JQ Query.
