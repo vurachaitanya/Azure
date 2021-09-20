@@ -1,4 +1,7 @@
 ### Storage Account :
+
+![Storage types](https://azuretrainings.files.wordpress.com/2019/06/storageaccountkinds.jpg)
+
 #### Types of SA
 - Blob Storage
 - General purpose
@@ -30,7 +33,7 @@ New-AzureRmStorageAccount -ResourceGroupName chaitu_rg
 -AccountName Storageaccount1 `
 -Location US East `
 ```
-#### Storage Account - Performance Tiers
+### Storage Account - Performance Tiers
 ##### Two performance Tiers
 - Standard : Magnetic drives and Low cost. Supports by all Storage account, storage services. 
 - Premium : SSD, High performance and low latency access. 
