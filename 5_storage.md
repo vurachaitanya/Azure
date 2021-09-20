@@ -75,3 +75,26 @@ Archive Storage| Rarely access data more than 180 days
 ##### Synchronization :
 - LRS & ZRS replication occurs syn.
 - GRS and RA-GRS replicates Asyn.
+
+
+## Storage Explorer - Gives access to storage and in depth details of storage components. 
+- Access Keys
+- SAS - Account SAS & Service SAS
+
+### Storage account Access Keys
+- When SA is create 2 keys are created by default.
+- 2 Key access will give root access to the storage account. 
+
+### Shared access Signatures 
+- Service SAS - One of the storage services (blob, file,queue & table)
+- Account SAS - One or more resource & services with in SA
+
+#### Features :
+- URI Based access, who ever has it will have it.
+- Can have start time and end time.
+- IP level restriction.
+- Restricts using protocols (HTTPS only & HTTP and HTTPS)
+- Different services (Blob, file, Queue & Table)
+- Different permission (read, list, delete, create etc)
+- Account & Service SAS URI are similar but Account SAS URI will have more details.
+- Once the SAS access is created we may not revert the access or change the access as those are stored in client. 
