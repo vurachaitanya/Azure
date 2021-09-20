@@ -38,5 +38,6 @@
   - Standard HDD : Cost effective, Low IOPS
   - Standard SDD : Good consistency and reliability.
   - Premium SDD : High performance, Low latency, S name while accessing to VM.
-- Azure storage service encryption at infra level, disk stealing which will not give access to the data.
-- 
+- **Azure storage service encryption** at infra level, disk stealing which will not give access to the data.
+- **Azure Data Encryption** - protects the data one login in to you account, VM is on. Can't transfer or export the data. 
+- [List Azure Resources created in JSON format. API Calls can be listed](https://resources.azure.com/)
