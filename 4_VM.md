@@ -48,3 +48,13 @@
 - Custom script to run by setting language setting, timezone etc.
 - **Azure Diagnostics extension** to support additional monitoring. 
 
+
+### VM Network
+- NIC care independent resource and can attach to VM
+- NIC are created in VNet in a subnet.
+- VM is configured to forward packets, then **IP Forwarding must be enabled on NIC too**.
+- Static IP is not recommended for private IP configured on OS of a VM.
+- IF VM is using multiple IP's then static configuration is required to configured at OS.
+- For NIC you should set DNS inherited from VNet, but you can use custom also.
+
+
