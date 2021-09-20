@@ -7,6 +7,7 @@
 - User this in power shell to set the Latest image: `Get-AzureRmVMSourceImage -Publishername Canonical -Offer UbuntuServer -Skue 16.04-LTS -Version latest`
 - `sudo waagent -deprovision+user -force` [Linux image to generalised](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/capture-image) - removes users which are not generic to make image out of the VM Linux OS.
 - Azure reserves x.x.x.0,x.x.x.255 along with x.x.x.1 to x.x.x.3 from each subnets.
+- `New-AzureRmStorageAccount -ResourceGroupName chaitu_rg -AccessTier Hot -SkuName Standard_GRS -Kind BlobStorage -AccountName Storageaccount1 -Location US East `  - Create Storage Account. 
   
 
 
