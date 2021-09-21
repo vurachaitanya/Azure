@@ -44,4 +44,18 @@
 - Security - From Azure Security Center.
 - Policy
 
-
+### Alerts and Action Groups :
+- Azure Monitoring -> Alerts 
+- Alerts are features of Azure Monitoring to perform some action against to the log or metric of an resource. 
+- Alert rule created with action group to trigger based on condition for a given resource.
+- Alerts status:
+  - New
+  - Acknowledged 
+  - Closed
+- Historical info about the alert states and monitor condition are recorded.
+- Alert groups are used with in alerts to define what should happen when alert triggered like emails, sms, voice, calling Azure Functions and many more.
+- [Action group limits ](https://docs.microsoft.com/en-us/azure/azure-monitor/service-limits#action-groups)
+- Rate limit thresholds :
+  - SMS : Not more than 1 SMS every 5 Min
+  - Voice : Not more  than 1 Voice call every 5 Min
+  - Email: No more than 100 emails in an hour
