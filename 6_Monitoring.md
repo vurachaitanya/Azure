@@ -59,3 +59,24 @@
   - SMS : Not more than 1 SMS every 5 Min
   - Voice : Not more  than 1 Voice call every 5 Min
   - Email: No more than 100 emails in an hour
+
+## Log Analytics
+- Log Analytics, part of Azure Monitor
+- Store data & Search Functionality
+- search data
+- Data Explorer query language of Microsoft tool for querying
+- All logs data collected by Azure Monitor is stored within a log Analytic workspace.  
+- Dashboard --> Monitor --> Log --> create Log Analytics workspace
+- Workspace Sources have :
+  - VM
+  - Storage Account logs
+  - Azure Activity logs
+  - Azure Resources - Diagnostic settings must be configured
+ 
+### Log Search 
+- Monitor --> log --> Log workspace --> Active --> logManagement
+- `AzureActivity | limit 50` - list first 50 records.
+- `Azure Activity | where OperationName == 'Regenerate Storage Account Keys'`
+- Can be added using "+" to that key/value to added it to our querying.
+- You can create a Query to a function on export and create one. So that you can run or use it other application integration. 
+- [Azure Function creation](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/functions)
