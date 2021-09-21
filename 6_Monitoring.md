@@ -48,10 +48,12 @@
 - Azure Monitoring -> Alerts 
 - Alerts are features of Azure Monitoring to perform some action against to the log or metric of an resource. 
 - Alert rule created with action group to trigger based on condition for a given resource.
-- Alerts status:
+- Alerts status & Alert severity 
   - New
   - Acknowledged 
   - Closed
+  - 1,2,3 & 4 Severity
+ ![Alert Dashboard](https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/media/alerts-overview/alerts-page.png)
 - Historical info about the alert states and monitor condition are recorded.
 - Alert groups are used with in alerts to define what should happen when alert triggered like emails, sms, voice, calling Azure Functions and many more.
 - [Action group limits ](https://docs.microsoft.com/en-us/azure/azure-monitor/service-limits#action-groups)
