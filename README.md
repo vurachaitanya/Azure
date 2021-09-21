@@ -1,8 +1,9 @@
 # Azure
-- Azure Cloud related 
+### INDEX
 
 
-### Azure
+
+### Azure Tools
 - [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
 - [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
 
