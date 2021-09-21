@@ -44,3 +44,24 @@
 - Supports HA by Zone redundancy.
 - POWERCLI `get-azurermnetworkinterface -resourcegroupname chaituRM -name chaituNic1`
   
+
+## Virtual Network Peering
+- Subscription 1/VNet 1 - Subscription 1/Vnet 2 can't communicate
+- Subscription 1/Subnet 1 - Subscription 1/Subnet 2 can Communicate 
+- VNet Peering allows separate networks to communicate each other.
+- VNet Peering uses Microsoft backbone infrastructure, allowing faster connection and better security.
+- Peering should be done in both directions, so Vnet1 & Vnet 2 should be configured. **Portal-->Dashboard -->Virtual Network**
+- Can enable / Disable Vnet Peering, rather than deleting.
+- Allow Forwarded traffic : In case of appliance in Vnet1 to connect to Vnet2 from Vnet3 to pass.
+- Allow Gateway traffic : In case on Hybrid cloud VPN can be connected to onprem servers using VNet Peering. VNet1 <--> Vnet2 <--> VPN 
+- Use Remote Gateway : its should be on  with Allow Gateway Traffic so that we don't need to create multiple VPN's.
+
+##### Features :
+- Low Latency traffic
+- Supports cross subscription connection (using resource ID)
+- Supports Cross region connection (Global Vnet Peering)
+- Allows traffic via Private IP Address.
+- Dose not supports VNet Peering with same CIDR IP's.
+- Dose not supports Transitive Routing (Vnet1 can't communicate Vnet1 via Vnet3 Peering)
+
+
