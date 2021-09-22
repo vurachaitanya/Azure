@@ -12,7 +12,7 @@
 ### Azure Tools
 - [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
 - [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
-- [Scan IAC tools](https://www.checkov.io/),[Git link](https://github.com/bridgecrewio/checkov)
+- [Scan IAC tools](https://www.checkov.io/),  [Git link](https://github.com/bridgecrewio/checkov)
 
 ### Terraform setup:
 - [Terraform setup using VSCode](https://docs.microsoft.com/en-us/azure/developer/terraform/configure-vs-code-extension-for-terraform)
