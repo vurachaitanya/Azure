@@ -32,3 +32,64 @@
 - Azure AD has different licenses for different functionality & Availability. 
 - Azure AD different from Microsoft AD and can be connected using Azure AD Connect
 - Association allows identity and access to manage through **Role based access control, Single sign-on & Access Control or resources**
+
+### Device registration
+- Bring your own device - Register, Trusted, Secure access
+### 3 ways of registration a device
+- Azure AD registered - BYOD, Provides identity, Access to Organization resources
+- Azure AD join  - Org Own devices but not part of Org AD, Change local state to get more control and provide SSO to Azure managed resources.
+- Hybrid Azure AD joined - Org added to on-prem AD, supports SSO and ESR(Enterprise State Roam).
+
+### ESR (Enterprise State Roam)
+- Sync user data across the devices.
+- Settings stored in cloud
+- **Azure AD --> Devices --> Enterprise State Roam**
+- Retains data after 90 to 180 days after deleting user profile
+
+
+### Self Service Password reset
+- Its Azure AD feature for end users ability to reset the own password
+- Azure AD --> Password Reset, Properties --> Configure SSPR to All - to allow all
+- Registered users are only allow to use this feature
+- https://aks.ms/ssprsetup for registration
+- Reset portal https://aks.ms/sspr 
+
+##### Authentication methods
+- Password
+- security questions
+- Email address
+- MS Authenticator app
+- OATH Hard token
+- SMS or Voice
+
+### Azure AD Identity protection :
+- Azure Active Directory Identity protection is the service provided by Microsoft. 
+- Detects Anomalies and suspicious incidents related to Identity.
+
+##### Dependencies :
+- Azure AD Premium P2 Liciensing
+- Create resource Azure AD Identity protection as new resource.
+
+###### Types of Policies 
+- Multi factor authentication - Granular control
+- Block risk user account - Risk level to enforce password reset
+- Sign-in risk policy - real time, Risk level from MFA, Can apply to modern auth traffic.
+![Risks](https://docs.microsoft.com/en-us/azure/security/fundamentals/media/steps-secure-identity/azure-ad-sec-steps3.png)
+- Azure AD Identity protection evaluates your env for vulnerabilities
+
+### Azure  Multi Factor Authentication
+- Requires additional infra to manage.
+  - MFA Server -our own
+  - Cloud base MFA
+- MFA Can be enabled 2 ways
+  - From Azure portal
+  - From Identity protection 
+- Range of ways to authenticate
+  - Call
+  - Text
+  - Mobile app
+  - Hardware token vs app
+- Bypass MFS
+  - From Conditional Access policy
+  - One time for certain amount of time.
+  - Trusted IP
