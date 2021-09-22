@@ -8,6 +8,7 @@
 - [4. Virtual Machine ](https://github.com/vurachaitanya/Azure/blob/main/4_VM.md)
 - [5. Storage](https://github.com/vurachaitanya/Azure/blob/main/5_storage.md)
 - [6. Monitoring](https://github.com/vurachaitanya/Azure/blob/main/6_Monitoring.md)
+- [7. Costing](https://github.com/vurachaitanya/Azure/blob/main/7_Costing.md)
 
 ### Azure Tools
 - [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
