@@ -136,3 +136,7 @@
   - **PTA** : Pass thought Authentication - Auth happens OnPrem, Best of all, Secured, but Agent is required, MFA not supported, Can't sync multiple servers so staging is required. 
   - **Seamless SSO** : supported by PTA or PHS only, don't need to give the password multiple times.
   
+### Azure AD Connect:
+- Azure AD Connect pkg should be installed in Onprem server, not part of Azure Cloud. 
+- **Password Hash Sync - PHS** : 
+- Once created need to sync to the to using the Agent to Stand by server and exports to the Azure AD server
