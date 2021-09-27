@@ -123,3 +123,16 @@
 	]
 }
 ```
+
+#### Hybrid Identities :
+- [Details](https://lucid.app/lucidchart/8fd7f8ce-ddfa-405a-a46a-2551195187c8/view?page=7d_Owad0QYIk#)
+- If we have Hybrid cloud (datacenter + Cloud) AD then we can configure in:
+  - Onprem Datacenter accounts to recreated in Cloud AD
+  - Sync the Onprem AD to Cloud AD
+  - Hybrid Identities which can Sync bi- direction ie from Onprem to Cloud and Cloud to Onprem.
+- In Hybrid Identities we have 3 ways:
+  - **ADFS** : Federation - Auth -> Onprem -> Azure cloud
+  - **PHS** : Password Hash Sync - Only Password Hash is syncted to cloud
+  - **PTA** : Pass thought Authentication - Auth happens OnPrem, Best of all, Secured, but Agent is required, MFA not supported, Can't sync multiple servers so staging is required. 
+  - **Seamless SSO** : supported by PTA or PHS only, don't need to give the password multiple times.
+  
