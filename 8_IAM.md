@@ -99,3 +99,27 @@
 - Conditional access Policies  based on location, Group, User, All, applications, Devices etc.
 - [More details](https://lucid.app/lucidchart/8fd7f8ce-ddfa-405a-a46a-2551195187c8/view?page=Le_O0Vtf-_pP#)
 - [Azure Video](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
+
+
+### Role Based actions:
+- [RBAC](https://lucid.app/lucidchart/8fd7f8ce-ddfa-405a-a46a-2551195187c8/view?page=Le_O0Vtf-_pP#)
+- [List of Built in Roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
+
+- `az role definition create --role-definition ./customRole.json` - Command to create a role.
+```
+{  
+  "Name": "LAAzureAdmin",
+  "IsCustom": true,
+  "Description": "Read access to Network, all access to Compute, Storage & Support"
+  "Actions": [
+    "Microsoft.Compute/*",
+	"Microsoft.Storage/*",
+	"Microsoft.Support/*",
+	"Microsoft.Network/*/read",
+   ],
+   "NotActions": [],
+   "AssignableScopes": [
+      "/subscriptions/xxxxx"
+	]
+}
+```
