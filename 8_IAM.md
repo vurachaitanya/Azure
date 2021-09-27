@@ -93,3 +93,9 @@
   - From Conditional Access policy
   - One time for certain amount of time.
   - Trusted IP
+
+### Azure AD Access Conditions
+- Conditions based on locations / IP (Portal -> Dashboard -> Linux Academy Azure --> Conditional Access Terms of use)
+- Conditional access Policies  based on location, Group, User, All, applications, Devices etc.
+- [More details](https://lucid.app/lucidchart/8fd7f8ce-ddfa-405a-a46a-2551195187c8/view?page=Le_O0Vtf-_pP#)
+- [Azure Video](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
