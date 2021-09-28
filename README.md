@@ -23,3 +23,4 @@
 
 ### Note:
 - Azure resources don't need regions : Azure Active Directory, Azure Traffic Manager and Azure DNS
+- [Azure Vs AWS](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services)
