@@ -10,6 +10,7 @@
 - [6. Monitoring](https://github.com/vurachaitanya/Azure/blob/main/6_Monitoring.md)
 - [7. Costing](https://github.com/vurachaitanya/Azure/blob/main/7_Costing.md)
 - [8. IAM](https://github.com/vurachaitanya/Azure/blob/main/8_IAM.md)
+- [9. Checkov IAC Scanning tool](https://github.com/vurachaitanya/Azure/blob/main/9_Checkov.md)
 
 ### Azure Tools
 - [Azure Calculator](https://azure.microsoft.com/en-us/pricing/calculator)
