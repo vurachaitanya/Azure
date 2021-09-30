@@ -1,12 +1,32 @@
 ## [Checkov](https://github.com/bridgecrewio/checkov)
-- Its an opensource tools for scanning below IAC tools :
-  - AWS
-  - Azure
+- Its an opensource tools for scanning below IAC Frameworks :
+  - AWS - Cloudformation
+  - Azure - ARM
+  - GCP - 
   - Kubernetes
   - Dockerfile
   - Helm
-  - Cloudformation
   - Terraform
+
+
+### About Checkov :
+- Scan's above listed IAC Frameworks.
+- Custom policy can also been created as per your organization
+- Can be integrated with CI/CD
+
+### Other similar tools :
+- [OWASP Defectdojo](https://owasp.org/www-project-defectdojo/)
+- [Bridgecrew](https://bridgecrew.io/infrastructure-as-code-security/)
+#### For K8s,Terraform
+- [checkov](https://github.com/bridgecrewio/checkov)
+- [cfngoat](https://github.com/bridgecrewio/cfngoat)
+- [terragoat](https://github.com/bridgecrewio/terragoat)
+#### AWS:
+- toniblyx/prowler
+- duo-labs/cloudmapper
+- bridgecrewio/airiam
+#### Google cloud
+- gcp/terraform-pci-starter
 
 
 ### Whats new in CKV2: 
