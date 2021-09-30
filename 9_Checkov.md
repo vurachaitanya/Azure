@@ -21,8 +21,8 @@
   - Ensure port 22 is not exposed
 
 ### Checkov Cheatsheet :
-`checkov -l` - List all the supported checks it will do
-`checkov -h` - HELP
-`checkov -l|grep CKV` - Written in Python
-`checkov -l|grep CKV2` - Written in YAML/ backend GraphDB
+- `checkov -l` - List all the supported checks it will do
+- `checkov -h` - HELP
+- `checkov -l|grep CKV` - Written in Python
+- `checkov -l|grep CKV2` - Written in YAML/ backend GraphDB
 
