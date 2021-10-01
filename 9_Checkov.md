@@ -14,17 +14,25 @@
 - Custom policy can also been created as per your organization
 - Can be integrated with CI/CD
 
+
 ### Other similar tools :
 - [OWASP Defectdojo](https://owasp.org/www-project-defectdojo/)
 - [Bridgecrew](https://bridgecrew.io/infrastructure-as-code-security/)
+
+
 #### For K8s,Terraform
+- [tfsec](https://github.com/aquasecurity/tfsec)
 - [checkov](https://github.com/bridgecrewio/checkov)
 - [cfngoat](https://github.com/bridgecrewio/cfngoat)
 - [terragoat](https://github.com/bridgecrewio/terragoat)
+
+
 #### AWS:
 - toniblyx/prowler
 - duo-labs/cloudmapper
 - bridgecrewio/airiam
+
+
 #### Google cloud
 - gcp/terraform-pci-starter
 
@@ -39,6 +47,8 @@
   - Ensure update instructions are not used in Dockerfile
   - Ensure User for the container has been created.
   - Ensure port 22 is not exposed
+
+
 
 ### Checkov Cheatsheet :
 - `checkov -l` - List all the supported checks it will do
