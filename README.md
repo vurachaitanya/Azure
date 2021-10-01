@@ -17,6 +17,7 @@
 - [Azure Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/)
 - [Scan IAC tools](https://www.checkov.io/),  [Git link](https://github.com/bridgecrewio/checkov)
 - [Lucid](https://lucid.app/lucidchart/8fd7f8ce-ddfa-405a-a46a-2551195187c8/view?page=Le_O0Vtf-_pP#)
+- [Azure Tools stack](https://azurecharts.com/menu)
 
 ### Terraform setup:
 - [Terraform setup using VSCode](https://docs.microsoft.com/en-us/azure/developer/terraform/configure-vs-code-extension-for-terraform)
