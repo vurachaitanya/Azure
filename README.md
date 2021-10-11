@@ -27,3 +27,4 @@
 - Azure resources don't need regions : Azure Active Directory, Azure Traffic Manager and Azure DNS
 - [Azure Vs AWS](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services)
 - [Azure 303 & 304 exam prep](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/?WT.mc_id=esi_studyguide_content_wwl)
+- [Certification process](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview#:%7E:text=Exam%20development,Define%20the%20skill%20domain)
