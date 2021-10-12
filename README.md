@@ -44,3 +44,80 @@
 - [Monitoring on Azure]( https://docs.microsoft.com/learn/modules/design-monitoring-strategy-on-azure/3-azure-monitoring-options?WT.mc_id=esi_studyguide_content_wwl)
 - [Serverless Architecture](https://docs.microsoft.com/azure/architecture/reference-architectures/serverless/web-app?WT.mc_id=esi_studyguide_content_wwl)
 - [900 + 304 vs 104 +304 ](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4AJyF)
+
+
+#### Miscellaneous :
+- Design authorization https://docs.microsoft.com/azure/governance/management-groups/how-to/protect-resource-hierarchy?WT.mc_id=esi_studyguide_content_wwl
+
+- https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure?WT.mc_id=esi_studyguide_content_wwl
+
+- Conditional Access Policies https://docs.microsoft.com/azure/active-directory/conditional-access/overview?WT.mc_id=esi_studyguide_content_wwl
+
+-  MFA https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure AD connect and Hybrid AD https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect?WT.mc_id=esi_studyguide_content_wwl
+
+- https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn?WT.mc_id=esi_studyguide_content_wwl
+
+- B2B Identity solution https://docs.microsoft.com/azure/active-directory/external-identities/what-is-b2b?WT.mc_id=esi_studyguide_content_wwl
+- Resource Hierarchy https://docs.microsoft.com/azure/governance/management-groups/how-to/protect-resource-hierarchy?WT.mc_id=esi_studyguide_content_wwl
+
+- Identity Protection https://docs.microsoft.com/azure/active-directory/identity-protection/concept-identity-protection-policies?WT.mc_id=esi_studyguide_content_wwl
+
+- investigating Identity Protection risk https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-investigate-risk?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure governance and Blueprints https://docs.microsoft.com/learn/modules/intro-to-governance/?WT.mc_id=esi_studyguide_content_wwl
+
+- https://docs.microsoft.com/learn/modules/intro-to-governance/5-azure-blueprints?WT.mc_id=esi_studyguide_content_wwl
+
+-  MS learn for AZ 304 https://docs.microsoft.com/en-us/learn/certifications/exams/az-304?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure Key vault https://docs.microsoft.com/learn/modules/manage-secrets-with-azure-key-vault/2-what-is-key-vault?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure Key vault API https://docs.microsoft.com/rest/api/keyvault/?WT.mc_id=esi_studyguide_content_wwl
+
+- Managed Identites https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/?WT.mc_id=esi_studyguide_content_wwl
+
+- Optimizing Cost https://docs.microsoft.com/azure/architecture/framework/cost/?WT.mc_id=esi_studyguide_content_wwl
+
+- cost management best practices https://docs.microsoft.com/azure/cloud-adoption-framework/get-started/manage-costs#step-4-implement-best-practices-for-landing-zones?WT.mc_id=esi_studyguide_content_wwl
+
+- Cost Management tools in Azure https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/cost-management/toolchain%C2%A0?WT.mc_id=esi_studyguide_content_wwl
+
+- Creating and managing Azure budgets https://docs.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets?WT.mc_id=esi_studyguide_content_wwl
+
+- Monitoring options available in Azure https://docs.microsoft.com/en-us/learn/modules/design-monitoring-strategy-on-azure/3-azure-monitoring-options?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure monitor overview and refrences https://docs.microsoft.com/azure/azure-monitor/?WT.mc_id=esi_studyguide_content_wwl
+
+- https://docs.microsoft.com/azure/azure-monitor/monitor-reference?WT.mc_id=esi_studyguide_content_wwl
+
+- Collect and analyze resource logs from an Azure resource https://docs.microsoft.com/en-us/azure/azure-monitor/essentials/tutorial-resource-logs?WT.mc_id=esi_studyguide_content_wwl
+
+- Creating and managing action groups https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups?WT.mc_id=esi_studyguide_content_wwl
+
+- Cosomos DB https://docs.microsoft.com/en-us/azure/cosmos-db/introduction
+- Azure SQL Database scalling https://docs.microsoft.com/en-us/azure/azure-sql/database/scale-resources
+
+
+- Secure your data in transit, at rest, and on display https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/4-data-security?WT.mc_id=esi_studyguide_content_wwl
+
+- Optimize storage performance and costs using Blob storage tiers https://docs.microsoft.com/en-us/learn/modules/optimize-archive-costs-blob-storage/?WT.mc_id=esi_studyguide_content_wwl
+
+- Protect your on-premises infrastructure from disasters with Azure Site Recovery https://docs.microsoft.com/en-us/learn/modules/protect-on-premises-infrastructure-with-azure-site-recovery/?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure Backup https://docs.microsoft.com/en-us/learn/modules/protect-virtual-machines-with-azure-backup/1-introduction?WT.mc_id=esi_studyguide_content_wwl
+
+- Managing the availability of Azure VMs https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-virtual-machines/5-high-availability?WT.mc_id=esi_studyguide_content_wwl
+
+- Azure Virtual machine scale sets https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview
+
+- Azure Storage redundancy https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy
+
+- Designing a geographically distributed architecture https://docs.microsoft.com/en-us/learn/modules/design-a-geographically-distributed-application/2-geo-distributed-architecture?WT.mc_id=esi_studyguide_content_wwl
+
+- Exam AZ-304: Microsoft Azure Architect Design - https://docs.microsoft.com/en-us/learn/certifications/exams/az-304 
+- Practice Test exam - https://www.measureup.com/official-practice-test-az-304-microsoft-azure-architect-design.html 
+- Study Guide - https://aka.ms/ESIStudyGuide_AZ-304
+- AZ-304 learning Path https://docs.microsoft.com/learn/certifications/exams/az-304/?WT.mc_id=esi_studyguide_content_wwl
+- Practice test https://www.mindhub.com/p/MU-AZ-304
