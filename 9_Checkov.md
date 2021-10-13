@@ -20,6 +20,9 @@
 - [Bridgecrew](https://bridgecrew.io/infrastructure-as-code-security/)
 
 
+#### Cloud automation tools:
+- Fylamynt
+
 #### For K8s,Terraform
 - [tfsec](https://github.com/aquasecurity/tfsec)
 - [checkov](https://github.com/bridgecrewio/checkov)
