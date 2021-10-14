@@ -2,6 +2,14 @@
 
 ![Storage types](https://azuretrainings.files.wordpress.com/2019/06/storageaccountkinds.jpg)
 
+#### Features
+- Storage account can hold up to 5PB each
+- Blobs, Queues, tables, files
+- Replication includes from local to global.
+- At least 3 copy of data is been maintained.
+- Managed VM or Unmanaged VM
+- Storage tiers(hold, Cold Archive)
+
 #### Types of SA
 - Blob Storage
 - General purpose
