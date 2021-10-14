@@ -13,6 +13,20 @@
 
 ### Azure CLI:
 
+- Az login setup
+- need to place Azure certs under below pem file.
+```
+#alias tf="terraform init && terraform plan && terraform apply -auto-approve"
+alias tf="terraform init && terraform apply -auto-approve"
+#alias tf="terraform apply -auto-approve"
+alias lab="cd /home/chaitu/Desktop/code/learning"
+alias listtf="find . -type d -name .terraform -exec du -sh {} \;"
+alias removetf="find . -type d -name .terraform -exec rm -rf {} \;"
+#export TF_LOG=DEBUG
+export REQUESTS_CA_BUNDLE=$HOME/certs/az-cli-extra-certs.pem
+AZURE_CLI_DISABLE_CONNECTION_VERIFICATION=1
+```
+
 - Azure Cli install on windows/Linux
 - [List Azure Resources created in JSON format. API Calls can be listed](https://resources.azure.com/)
 - Azure cloud Shell
