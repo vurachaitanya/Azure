@@ -23,6 +23,22 @@ Subnet | Subnet
 
 
 
+### Main Services :
+- Virtual Machine
+- Virtual Network
+- Storage
+
+### Sub services uses above Main services with abstract layer 
+- App Services 
+  - Fully managed servers, no ability to remote control
+  - Windows or Linux OS
+  - Web apps or container apps
+- SQL Services
+- Database services
+  - Nosql
+
+
+
 #### Storage Account:
 - Storage name should be unique just like S3 across the Azure cloud.
 
