@@ -1,4 +1,45 @@
-# Azure PowerCLI:
+# Azure CLI & PowerShell
+
+### Command syntax with Azure CLI:
+##### VM
+- az vm list
+- az vm create
+- az vm delete
+##### KeyVault
+- az keyvault list
+- az keyvault create
+- az keyvault delete
+##### Vnet
+- az network vnet list
+- az network vnet create
+- az network vnet delete
+##### Subnet
+- az network vnet subnet list
+- az network vnet subnet create
+- az network vnet subnet delete
+
+### Command syntax for Power shell:
+##### VM
+- Get-AzVM
+- New-AzVM
+- Remove-AzVM
+##### KeyVault
+- Get-AzKeyVault
+- New-AzKeyVault
+- Remove-AzKeyVault
+##### Vnet
+- Get-AzVirtualNetwork
+- New-AzVirtualNetwork
+- Remove-AzVirtualNetwork
+##### Subnet
+- Get-AzVirtualNetworkSubnetConfig
+- New-AzVirtualNetworkSubnetConfig
+- Remove-AzVirtualNetworkSubnetConfig
+
+
+
+
+#### Azure PowerCLI:
 
 - `Get-AzureRMVMImagePublisher -location australisoutheast| select Publishername` - gets list of publishers name
 - `Get-AzureRMVMImageOffer -Location australiasoutheast -Publisher canonical| Select Offer` - gives list of offering image type ie server/Desktop etc.
