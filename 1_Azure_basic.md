@@ -29,13 +29,24 @@ Subnet | Subnet
 - Storage
 
 ### Sub services uses above Main services with abstract layer 
+### Example
 - App Services 
   - Fully managed servers, no ability to remote control
   - Windows or Linux OS
   - Web apps or container apps
-- SQL Services
-- Database services
-  - Nosql
+
+#### Data Services - SQL server 
+- Azure SQL Datbase
+- Azure SQL Managed Instance
+- SQL Server on a VM
+- Synapse Analytics (SQL Data Warehouse)
+
+#### Data Services - Other
+- Cosmos DB - global Scale
+- Azure Database for Mysql
+- Azure Database for PostgreSQL
+- Azure Database for MariaDB
+- Azure Cache for Redis
 
 #### Micro services:
 - Service Fabric
