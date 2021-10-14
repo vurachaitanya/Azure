@@ -37,6 +37,43 @@ Subnet | Subnet
 - Database services
   - Nosql
 
+#### Micro services:
+- Service Fabric
+- Azure Functions
+- Azure logic apps
+- API Management
+- Azure Kubernetes Service (AKS)
+
+#### Networking
+- Virtual Network (VNet)
+- Virtual WAN
+- ExpressRoute
+- VPN Gateway
+- Azure DNS
+- Peering
+- Bastion
+
+#### Network Security
+- Network Security Group (NSG)
+- Azure Private Link
+- DDos Protection
+- Azure Firewall
+- Web Application Firewall (WAF)
+- Virtual Network Endpoints
+
+#### Network Delivery
+- CDN
+- Azure Front Door - Global Load Balancer
+- Traffic Manager - App LB Layer 7, LB Layer 4 
+- Application Gateway
+- Load Balancer
+
+#### Networking - Monitoring
+- Network watcher
+- Express Route Monitor
+- Azure Monitor
+- VNet Terminal Access Point (TAP)
+
 
 
 #### Storage Account:
