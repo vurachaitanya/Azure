@@ -65,3 +65,22 @@ az vm create \
 - `az network vnet subnet create -g (Resource group)chaituRG --vnet-name vnet1 -n subnet2 --address-prefix 10.1.2.0/24` - Create new subnet
 - `az network nic create -g chaituRG --vnet-name chaituVnet --subnet chaituSubnet1 -n chaituNic1` - Create new NIC 
 - `az network vnet subnet update -g chaitu_rg --vnet-name vnet1 -n subnet1 --service-edpoints "Microsoft.Storage"` - Create Service Endpoints
+
+### ARM - Azure Resource manager : 
+- Automation for Cloud templates
+- Structure : [Azure Doc](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/syntax)
+```
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "",
+  "apiProfile": "",
+  "parameters": {  },
+  "variables": {  },
+  "functions": [  ],
+  "resources": [  ],
+  "outputs": {  }
+}
+``` 
+- [Some ARM templates](https://github.com/Azure/azure-quickstart-templates)
+- [Resource templates](https://azure.microsoft.com/en-in/resources/templates/)
+
