@@ -14,7 +14,7 @@
 ### Azure CLI:
 
 - Az login setup
-- need to place Azure certs under below pem file.
+- need to place Azure certs under below pem file and update below date in /etc/profile file.
 ```
 #alias tf="terraform init && terraform plan && terraform apply -auto-approve"
 alias tf="terraform init && terraform apply -auto-approve"
@@ -23,6 +23,8 @@ alias lab="cd /home/chaitu/Desktop/code/learning"
 alias listtf="find . -type d -name .terraform -exec du -sh {} \;"
 alias removetf="find . -type d -name .terraform -exec rm -rf {} \;"
 #export TF_LOG=DEBUG
+
+
 export REQUESTS_CA_BUNDLE=$HOME/certs/az-cli-extra-certs.pem
 AZURE_CLI_DISABLE_CONNECTION_VERIFICATION=1
 ```
