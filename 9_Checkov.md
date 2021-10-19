@@ -58,4 +58,5 @@
 - `checkov -h` - HELP
 - `checkov -l|grep CKV` - Written in Python
 - `checkov -l|grep CKV2` - Written in YAML/ backend GraphDB
+- `docker run -it -v "$(pwd):/mnt/Azure/VNic" checkov -d /mnt/Azure/VNic` - Command to scan the code in /mnt/Azure/VNic Terraform code
 
