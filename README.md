@@ -36,6 +36,7 @@
 - [Azure 303 & 304 exam prep](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/?WT.mc_id=esi_studyguide_content_wwl)
 - [Certification process](https://docs.microsoft.com/en-us/learn/certifications/certification-process-overview#:%7E:text=Exam%20development,Define%20the%20skill%20domain)
 - [Azure Resources moved across Resource group, Subscription & Region move](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/move-support-resources)
+- [Microsoft Azure 303 Training Lab exercises](https://github.com/MicrosoftLearning/AZ-303-Microsoft-Azure-Architect-Technologies)
 
 #### Other links :
 - [Skills Measured for AZ-304 EXAM](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4pCWz)
