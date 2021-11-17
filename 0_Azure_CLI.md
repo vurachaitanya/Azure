@@ -3,6 +3,7 @@
 ### Command syntax with Azure CLI:
 ##### VM
 - az vm list
+- az vm list --subscription <Sub ID or Name>
 - az vm create
 - az vm delete
 ##### KeyVault
