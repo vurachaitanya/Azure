@@ -140,3 +140,17 @@
 - Azure AD Connect pkg should be installed in Onprem server, not part of Azure Cloud. 
 - **Password Hash Sync - PHS** : 
 - Once created need to sync to the to using the Agent to Stand by server and exports to the Azure AD server
+
+
+
+### Use Case:
+- Linux VM - u created under one subscription - x and resources group - r
+- Need to control access to that vm - u using Azure AD - a, To add it we need to have below roles.
+  - `Virtual Machine Administrator Login`
+  - `Virtual Machine User Login`
+- Or the subscription user can directly work if he has the roles assigned in that subscription
+  - `User Access Administrator`
+- If we want to apply restriction at subscription level we need to use Blueprints rather than RBAC
+  - **Blueprints**
+##### Managed identity :
+- System assigned will be create service principals - Certificate/tokens to generate for integrating with other resources. So that with System assigned object ID and Certificate people can interact using API, rather than pre-defined creating users/app user/non user access etc.
