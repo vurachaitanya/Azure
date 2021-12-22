@@ -16,7 +16,9 @@
 - When you connect a virtual network to another virtual network with a VNet-to-VNet connection type (VNet2VNet), it's similar to creating a Site-to-Site IPsec connection to an on-premises location. Both connection types use a VPN gateway to provide a secure tunnel with IPsec/IKE and function the same way when communicating.
 
 
-### Azure Backup : [MS Ref](https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-vms-prepare#before-you-start)
+### Azure Backup : 
+- [MS Ref](https://docs.microsoft.com/en-us/azure/backup/backup-azure-arm-vms-prepare#before-you-start)
+- [TF Code](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/backup_policy_vm)
 - Backup center will take database, VM, application backup
 - Can scheduled based on requirement 
 - Retention is given to store the old snapshots
