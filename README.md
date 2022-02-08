@@ -26,7 +26,7 @@
 
 ### Terraform setup:
 - [Terraform setup using VSCode](https://docs.microsoft.com/en-us/azure/developer/terraform/configure-vs-code-extension-for-terraform)
-
+- [Terraform examples](https://docs.w3cub.com/terraform/providers/azurerm/r/application_gateway)
 
 
 
